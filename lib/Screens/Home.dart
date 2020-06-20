@@ -51,6 +51,7 @@ class _HomeState extends State<Home> {
                         icon: Icon(Icons.edit),
                         onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => EditReservation(reservation: reservationList[index],),),),
                       ),
+                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => EditReservation(reservation: reservationList[index],),),),
                       title: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: <Widget>[
