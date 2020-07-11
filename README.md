@@ -1,4 +1,4 @@
-# reservationapp
+# Salon Reservation System
 
 A new Flutter application.
 
